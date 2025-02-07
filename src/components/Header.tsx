@@ -71,10 +71,10 @@ export const Header = () => {
             horizontal="center"
           >
             <Flex gap="4" vertical="center" textVariant="body-default-s">
-              {routes["/"] && (
+              {/* {routes["/"] && (
                 <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
               )}
-              <Line vert maxHeight="24" />
+              <Line vert maxHeight="24" /> */}
               {routes["/about"] && (
                 <>
                   <ToggleButton
